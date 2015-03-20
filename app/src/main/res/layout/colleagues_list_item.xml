@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context="com.example.actionbar.navigationtabs.PersonsListActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_photo"
+        android:background="@drawable/ic_launcher"/>
+
+    <TextView
+        android:paddingLeft="15dp"
+        android:layout_width="0dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/colleague_name"
+        android:text="FName LName" />
+
+</LinearLayout>
